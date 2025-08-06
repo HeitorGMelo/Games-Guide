@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Swiper.js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--Estilos-->
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Guide</title>
+</head>
+<body>
+    <!--Script Ptincipal-->
+    <script src="index.js"></script>
+    <!--Navegação-->
+    <section id="Tela01">
+        <nav>
+            <img src="src/logo.png" alt="Logo Games Guide">
+            <h3>
+            <a href="" class="link" onclick="recado()">⚠️Leia</a> |
+            <a href="" class="link" onclick="cadastro()">Cadastro</a> | 
+            <a href="" class="link" onclick="login()">Login</a>
+
+            </h3>        
+        </nav>
+
+        <!--Informações Sobre o Jogo-->
+        <div id="abaout">
+            <h2 id="tags">Ação | Aventura | Boa Trama</h2>
+            <h1 id="titulo">THE WITCHER</h1>
+        </div>
+        
+        <!--Descrição-->
+        <div>
+            <main id="main">
+                The Witcher 3: Wild Hunt é um RPG de mundo aberto aclamado pela crítica, desenvolvido pela CD Projekt Red. No papel de Geralt de Rívia, um caçador de monstros profissional, você embarca em uma jornada épica em busca de sua filha adotiva, perseguida pela temida Caçada Selvagem — uma força espectral e implacável
+            </main>
+        </div>
+
+
+        <!--Menu de Jogos-->
+        <div id="jogos">
+            <img src="src/Witcher.png" alt="" class="titulos" onclick="witcher()">
+            <img src="src/overwatch.svg" alt="" class="titulos" onclick="overwacth()">
+            <img src="src/zelda.svg" alt="" class="titulos" onclick="zelda()">
+            <img src="src/sekiro.svg" alt="" class="titulos" onclick="sekiro()">
+            <img src="src/tlof2.svg" alt="" class="titulos" onclick="tl2()">
+            <img src="src/taketwo.svg" alt="" class="titulos" onclick="two()">
+            <img src="src/elden.svg" alt="" class="titulos" onclick="elden()">
+            <img src="src/Baldurs.svg" alt="" class="titulos" onclick="baldurs()">
+        </div>
+    </section>
+        <section id="Tela02">
+
+            <div class="swiper mySwiper">
+                <div style="width: 100%; height: 50px;display: flex; position: absolute; z-index: 2; justify-content: center; justify-items: center;">
+                    <h3 id="h3">DESTAQUES</h3>
+                </div>
+            <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Valorant</h2>
+                            <h3>Valorant é um jogo de tiro tático em primeira pessoa (FPS) gratuito, desenvolvido e publicado pela Riot Games. Lançado oficialmente em 2020, o jogo combina mecânicas precisas de tiroteio no estilo Counter-Strike com habilidades únicas de personagens inspiradas em jogos como Overwatch</h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Read Dead Redemption 2</h2>
+                            <h3>Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto, desenvolvido pela Rockstar Games. Lançado em 2018, o título é um marco na indústria dos games, conhecido por sua narrativa cinematográfica, riqueza de detalhes e imersão incomparável.</h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Assassin’s Creed Shadows</h2>
+                            <h3>Assassin’s Creed Shadows é o novo jogo da franquia ambientado no Japão feudal, no final do século XVI. Você joga com dois personagens: uma ninja chamada Naoe e um samurai africano chamado Yasuke. O jogo mistura furtividade, ação e exploração em um mundo aberto detalhado, com climas e estações do ano. Lançamento: março de 2025.
+                            </h3>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>HADES</h2>
+                            <h3>Hades é um jogo de ação roguelike desenvolvido pela Supergiant Games. Você controla Zagreus, filho de Hades, tentando escapar do submundo. Com combates rápidos, narrativa envolvente e progressão constante, o jogo se destaca pelo estilo artístico e pelas vozes dos deuses da mitologia grega.</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Sifu</h2>
+                            <h3>Sifu é um jogo de ação e combate corpo a corpo desenvolvido pela Sloclap. Você joga como um jovem artista marcial em busca de vingança, enfrentando inimigos em lutas intensas. Cada vez que morre, o personagem envelhece, ganhando experiência, mas perdendo vitalidade.</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Fallout 4</h2>
+                            <h3>Fallout 4 se passa em um mundo pós-apocalíptico devastado por uma guerra nuclear. Você assume o papel do único sobrevivente de um abrigo nuclear (Vault 111) em busca de seu filho desaparecido. O jogo combina narrativa profunda, personalização de personagem, construção de assentamentos e combate com armas e armaduras altamente modificáveis.</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Hotline Miami</h2>
+                            <h3>Um jogo ultra-violento com estética dos anos 80, trilha sonora marcante e ritmo acelerado. Você joga como um assassino mascarado que recebe ligações misteriosas ordenando massacres contra criminosos. O jogo exige precisão, reflexo rápido e estratégia — qualquer erro pode ser fatal.</h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Lies Of Pi</h2>
+                            <h3>Lies of P é um RPG de ação inspirado nos jogos da série Souls, com ambientação sombria e temática baseada na história do Pinóquio. O jogador controla um autômato em uma cidade decadente, enfrentando inimigos implacáveis e explorando um mundo cheio de segredos. O jogo aposta em combates desafiadores, customização de armas e uma narrativa misteriosa.</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Mortal Kombat 1</h2>
+                            <h3>Mortal Kombat 1 é o reboot da popular franquia de luta. Mantém os famosos combates violentos, fatalities icônicos e uma história reimaginada que explora novos e antigos personagens. Com gráficos de última geração, jogabilidade refinada e modos multiplayer competitivos, é um dos títulos mais importantes do gênero fighting.</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Spider Man</h2>
+                            <h3>Em Spider-Man, você controla o icônico herói aracnídeo em uma versão detalhada e vibrante de Nova York. O jogo combina combates dinâmicos, exploração vertical pelas teias, missões variadas e uma história envolvente que traz tanto ação quanto emoção.</h3>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Hollow Night</h2>
+                            <h3>Hollow Knight é um jogo indie de ação e exploração ambientado em um vasto mundo subterrâneo cheio de segredos, inimigos desafiadores e belos cenários desenhados à mão. O jogo é conhecido por sua atmosfera melancólica, gameplay preciso e narrativa profunda contada de forma sutil.</h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Blasphemous</h2>
+                            <h3>Blasphemous é um jogo de ação e plataforma sombrio com forte inspiração na cultura e arte religiosa espanhola. Ambientado em um mundo gótico e brutal chamado Cvstodia, o jogador controla o “Penitente”, um guerreiro marcado por uma maldição, em sua jornada para quebrar um ciclo de sofrimento e redenção. O jogo é conhecido por sua dificuldade desafiadora</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="infos">
+                            <h2>Darkest Dungeon</h2>
+                            <h3>Darkest Dungeon é um RPG tático que desafia o jogador a liderar um grupo de heróis por masmorras cheias de horrores. Além dos combates, o jogo foca em aspectos psicológicos como estresse e medo dos personagens, tornando cada decisão crítica para a sobrevivência da equipe.</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="slider.js"></script>
+</body>
+</html>

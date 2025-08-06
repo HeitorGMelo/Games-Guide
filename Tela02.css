@@ -1,0 +1,124 @@
+#Tela02{
+    flex-direction: column;
+    display: flex;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+#Tela02{
+    position: relative;
+    .swiper {
+      width: 100%; /*Mudar aqui para responsividade*/
+      height: 100%;
+      position: relative;
+    }
+
+    .swiper-slide {
+        position: relative;
+      display: flex;
+    }
+
+    .swiper-slide img {
+      position: relative;
+      display: block;
+      height: 100%;
+      object-fit: cover;
+    }
+}
+.swiper-slide{
+    background-size: cover;
+    display: flex;    
+}
+.swiper-slide:nth-of-type(1) {
+    display: flex;
+    background-size: cover;
+    background-image: url(src/Valorant.svg);
+    flex-direction: column-reverse;    
+}
+.swiper-slide:nth-of-type(2) {
+    background-image: url(src/ReadDead2.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(3) {
+    background-image: url(src/AssasinCreedBanner.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(4) {
+    background-image: url(src/HadesBanner.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(5) {
+    width: 15px;
+    background-image: url(src/SifuBanner.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(6) {
+    background-image: url(src/Fallout4.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(7) {
+    background-image: url(src/Hotline.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(8) {
+    background-image: url(src/LiesOfPi.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(9) {
+    background-image: url(src/Mk11.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(10) {
+    background-image: url(src/SpiderMan.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(11) {
+    width: 15px;
+    background-image: url(src/Hollow.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(12) {
+    background-image: url(src/Blasfemous.svg);
+    flex-direction: column-reverse;
+}
+.swiper-slide:nth-of-type(13) {
+    background-image: url(src/Darkest.svg);
+    flex-direction: column-reverse;
+}
+
+.infos{
+    flex-direction: column-reverse;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    height: 50%;
+    width: 100%;
+    word-wrap: break-word;
+}
+.infos h2{
+    margin-top: 45%;
+    margin-left: 2%;
+}
+.infos h3{
+    color: rgb(255, 255, 255);
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.swiper-wrappeer{
+    width: 50px;
+}
+@media (max-width:600px){
+    .swiper-slide{
+        background-position: center;
+    }
+
+    .infos #h3{
+        letter-spacing: 0.1rem;
+        font-size: xx-small;
+    }
+}
+#h3{
+    color: rgb(255, 255, 255);
+    margin-top: 2%; 
+    font-size: x-large; 
+    letter-spacing: 1cap;
+}
