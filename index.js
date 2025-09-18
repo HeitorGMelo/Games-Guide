@@ -114,7 +114,7 @@ function Noticias(){
 //E-SP0RTS
 function Esports(){ 
     //Noticia 01
-    document.getElementsByClassName("filho")[0].style.backgroundImage = "url(src/theInternational.svg)"
+    document.getElementsByClassName("filho")[0].style.backgroundImage = "url(src/theinternational.svg)"
     document.getElementsByClassName("tituloCard")[0].innerHTML = "Brasil brilha no The International 2025"
     document.getElementsByClassName("textoCard")[0].innerHTML = "O Brasil teve uma participação destacada no The International 2025, o maior torneio de Dota 2 do mundo. A equipe HEROIC, com representantes brasileiros, alcançou o top 6 do mundial após vencer a Tundra Esports por 2 a 0. Além disso, a PARIVISION, comandada pelo técnico brasileiro Astini, garantiu o top 3 ao derrotar a Xtreme Gaming por 2 a 0. Juntas, as equipes acumularam mais de R$ 2 milhões em premiações "
 
