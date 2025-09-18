@@ -95,7 +95,7 @@
     word-wrap: break-word;
 }
 .infos h2{
-    margin-top: 45%;
+    margin-top: 31%;
     margin-left: 2%;
 }
 .infos h3{
@@ -106,6 +106,12 @@
 .swiper-wrappeer{
     width: 50px;
 }
+
+
+
+
+
+/*---------------------MOBILE----------------------*/
 @media (max-width:600px){
     .swiper-slide{
         background-position: center;

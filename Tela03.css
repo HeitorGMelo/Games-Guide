@@ -1,0 +1,150 @@
+#tela03{
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(src/Fundo03.svg);
+    background-position: center;
+    background-size: cover;
+}
+#headerTela03{
+    width: 100vw;
+    height: 3vh;
+    color: white;
+    margin: 2%;
+    display: flex;
+}
+#headerTela03 h3{
+    margin-left: 2%;
+    display: flex;
+}
+#headerTela03 h3:hover{
+    cursor: pointer;
+    color: grey;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.noticias{
+    display: grid;
+    width: 50px;
+}
+#Tela03{
+    flex-direction: column;
+    display: flex;
+    background-image: url(src/fundoTela02.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#Tela03 header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+#Tela03 header h3:hover{
+    color: grey;
+    cursor: pointer;
+}
+#Tela03 h3{
+    color: white;
+    margin: 2%;
+}
+#Pai{
+    gap: 15px;
+    margin: 0 auto ;
+    display: grid;
+    grid-template-areas:
+    "A B C"
+    "A D E";
+
+    grid-template-rows: 40vh 40vh;
+    grid-template-columns: 30vw 30vw 30vw;
+
+}
+.filho{
+    transition: 0.1s ;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+.filho:hover{
+    border: solid rgb(107, 0, 0) 3px;
+}
+.filho:nth-child(1){
+    background-image: url(src/The\ witcher\ 4.svg);
+}
+.filho:nth-child(2){
+    background-image: url(src/Cyberpunk.svg);
+}
+.filho:nth-child(3){
+    background-image: url(src/Playstation.svg);
+}
+.filho:nth-child(4){
+    background-image: url(src/gta6.svg);
+}
+.filho:nth-child(5){
+    background-image: url(src/Ubisoft.svg);
+}
+.filhoConteudo{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    align-self: flex-end;
+}
+.filhoConteudo h2,
+.filhoConteudo h3,
+.filhoConteudo h4{
+    text-shadow: 2px 2px 5px black;
+    margin: 3%;
+    color: white;
+}
+.filhoConteudo:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+/*-----------------MOBILE--------------------*/
+@media (max-width:600px){
+    #Tela03 header h3{
+        font-size: small;
+        margin: auto;
+    }
+    #Pai{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "A"
+        "B"
+        "C"
+        "D"
+        "E";
+        grid-template-columns: 90%;
+        grid-template-rows:repeat(5, 1fr);
+        overflow-x: hidden;
+        gap: 5px;
+        box-sizing: border-box;
+    }
+    .filho{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+    .filhoConteudo{
+        backdrop-filter: fil;
+        backdrop-filter: blur(1px) brightness(30%);
+        opacity: 1;
+        border: 0px transparent;
+    }
+    .filho:hover{
+        border: 0px transparent;
+    }
+}

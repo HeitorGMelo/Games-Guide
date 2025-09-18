@@ -57,6 +57,18 @@ div main{
     transition: 0.2s;
     filter: brightness(1) blur(0px);
 }
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------MOOBILE----------------------*/
 @media(max-width:600px) {
     .titulos{
         filter: blur(0.9px);
