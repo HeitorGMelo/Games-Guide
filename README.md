@@ -20,3 +20,5 @@ A ideia agora é transformar esse experimento em algo mais completo, aplicando o
 -Sistema de login simples, permitindo salvar preferências do usuário.
 -Versão mobile otimizada e futura conversão em PWA
 -Ranking de jogos mais populares e seção “Descubra novos títulos”.
+
+link de acesso:https://heitorgmelo.github.io/Games-Guide/
